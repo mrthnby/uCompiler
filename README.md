@@ -53,7 +53,9 @@ Loops:
         e.g. JGT BEGIN, $1, 10 --> jump BEGIN if value of $1 is greater than 10
 
 System Commands: SYS (1 argument -> System command as String)
+
     e.g. SYS "mkdir Photos"
 
 Exit: END
+
     e.g. END --> terminates Program
