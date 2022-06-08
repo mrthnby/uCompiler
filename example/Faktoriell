@@ -1,0 +1,15 @@
+# Dieses Programm rechnet Faktoriell der gegebenen Zahl
+LOOP
+SET $1, 1 # $1 = 10
+SET $2, 1 # $2 = 1
+SHOW 'schreiben sie bitte ein Zahl um Faktoriell zu berechnen'
+INPUT $10 # eingabe von Benutzer
+INCR $10 # $10++, weil JLT kontroliert nich "<=" es kontroliert "<"
+BEGIN
+MUL $2, $2, $1 # $2 = $2 * $1
+INCR $1 # $1--
+JLT BEGIN, $1, $10 # jump wenn $1 kleiner als $10
+DECR $10 #$10-- um gegebene Zahl zu zeigen
+SHOW $10, '!=', $2
+JMP LOOP # unendliche Schleife
+END
