@@ -5,19 +5,19 @@ Adresse: $
     e.g. $1 --> Register 1
 
 Arithmetic Operations:
-    Addition: ADD, ADDI (2 Arguments)
+    Addition: ADD, ADDI (3 Arguments)
         ADD $1, $1, $2 --> $1 = $1 + $2
         ADDI $1, $1, 5 --> $1 = $1 + 5
     
-    Subtraction: SUB, SUBI (2 Arguments)
+    Subtraction: SUB, SUBI (3 Arguments)
         SUB $1, $1, $2 --> $1 = $1 - $2
         SUBI $1, $1, 5 --> $1 = $1 - 5
 
-    Multiplication: MUL, MULI (2 Arguments)
+    Multiplication: MUL, MULI (3 Arguments)
         MUL $1, $1, $2 --> $1 = $1 * $2
         MULI $1, $1, 5 --> $1 = $1 * 5
 
-    Division: DIV, DIVI (2 Arguments)
+    Division: DIV, DIVI (3 Arguments)
         DIV $1, $1, $2 --> $1 = $1 / $2
         DIVI $1, $1, 5 --> $1 = $1 / 5
 
